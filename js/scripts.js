@@ -1,8 +1,5 @@
-var divide= function(number1, number2) {
-           return number1 / number2;
+var calculate = function(number1, number2) {
+           return number1 * 1.8 +32;
          };
-
-         var number1 = parseInt(prompt("Enter a weight in kilograms:"));
-         var number2 = parseInt(prompt("Enter height in meters ^2:"));
-
-          alert(divide(number1, number2));
+ var number1 = parseInt(prompt("Enter number1:"));
+          alert(calculate(number1);
